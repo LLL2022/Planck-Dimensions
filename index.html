@@ -4,10 +4,112 @@
 
     <head>
         <title>Planck Dimensions v0.0</title>
-        <meta name="Planck Dimensions" content="A game related to physics (pretty loosely) about huge numbers and watching them go up." charset="utf-8"/>
+        <meta charset = "UTF-8" name="Planck Dimensions" content="A game related to physics (pretty loosely) about huge numbers and watching them go up." charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="game.css">
     </head>
 
+    <body>
+
+        <div id = "x-header" style = "text-align: center">
+            <h1>You have <span id="x-planckLength" style="font-size:40px; color: black">0</span> planck lengths.</h1>
+        </div>
+
+        <div id="x-derivatives" class="dimtab">
+            <table class="table" >
+            <tbody id="parent">
+                <tr style="font-size: 25px" id="firstRow">
+                    <td id="x-velocity" width="32%" class="rel">
+                        Velocity x1
+                    </td>
+                    <td>
+                        <div id="x-velocity-amt">0</div>
+                    </td>
+                    <td align="right" width="10%">
+                        <button id="first" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn" align="right">Cost: 0</button>
+                    </td>
+                </tr>
+                <tr id="secondRow" style="font-size: 25px">
+                    <td id="x-acceleration" class="rel">
+                        Acceleration
+                    </td>
+                    <td>
+                        <div id="x-acceleration-amt" align="left">0</div>
+                    </td>
+                    <td><button id="second" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 10</button>
+                    </td>
+                </tr>
+                <tr id="thirdRow" style="font-size: 25px">
+                    <td id="x-jerk" class="rel">
+                        Jerk
+                    </td>
+                    <td>
+                        <div id="x-jerk-amt" align="left">0</div>
+                    </td>
+                    <td>
+                        <button id="third" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 100</button>
+                    </td>
+                </tr>
+                <tr id="fourthRow" style="font-size: 25px">
+                    <td id="x-snap" class="rel">
+                        Snap
+                    </td>
+                    <td>
+                        <div id="x-snap-amt" align="left">0</div>
+                    </td>
+                    <td>
+                        <button id="fourth" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 1000</button>
+                    </td>
+                </tr>
+                <tr id="fifthRow" style="font-size: 25px">
+                    <td id="x-crackle" class="rel">
+                        Crackle
+                    </td>
+                    <td>
+                        <div id="x-crackle-amt" align="left">0</div>
+                    </td>
+                    <td>
+                        <button id="fifth" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 10000</button>
+                    </td>
+                </tr>
+                <tr id="sixthRow" style="font-size: 25px">
+                    <td id="x-pop" class="rel">
+                        Pop
+                    </td>
+                    <td>
+                        <div id="x-pop-amt" align="left">0</div>
+                    </td>
+                    <td>
+                        <button id="sixth" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 100000</button>
+                    </td>
+                </tr>
+                <tr id="seventhRow" style="font-size: 25px">
+                    <td id="x-lock" class="rel">
+                        Lock
+                    </td>
+                    <td>
+                        <div id="x-lock-amt" align="left">0</div>
+                    </td>
+                    <td>
+                        <button id="seventh" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 1000000</button>
+                    </td>
+                </tr>
+                <tr id="eightRow" style="font-size: 25px">
+                    <td id="x-drop" class="rel">
+                        Drop
+                    </td>
+                    <td>
+                        <div id="x-drop-amt" align="left">0</div>
+                    </td>
+                    <td>
+
+                        <button id="eight" style="color:black; height: 25px; font-size: 18px; width: 150px" class="storebtn">Cost: 10000000</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
 
+    </body>
 
 </html>
